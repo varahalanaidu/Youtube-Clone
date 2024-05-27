@@ -1,0 +1,139 @@
+.Header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+}
+.Sub-Header {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(240, 240, 240);
+  background-color: white;
+  position: fixed;
+  width: 82px;
+  top: 65px;
+  left: 0;
+  bottom: 0;
+}
+.Left-Section {
+  display: flex;
+  align-items: center;
+}
+.Symbol-1 {
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.Symbol-1:hover {
+  background-color: rgb(240, 240, 240);
+}
+.Symbol-2 {
+  height: 25px;
+  cursor: pointer;
+}
+.Symbol-3 {
+  height: 26px;
+}
+.Symbol-4 {
+  height: 26px;
+}
+.Symbol-5,
+.Symbol-6,
+.Symbol-7 {
+  height: 26px;
+  cursor: pointer;
+}
+.Symbol-5:hover,
+.Symbol-6:hover,
+.Symbol-7:hover {
+  background-color: rgb(240, 240, 240);
+}
+.Symbol-8 {
+  height: 36px;
+  border-radius: 17px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Symbol-9 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.Symbol-9:hover {
+  background-color: lightgray;
+}
+.Symbol-9 img {
+  height: 25px;
+  margin-bottom: 5px;
+}
+.Symbol-9 div {
+  font-family: Arial;
+  font-size: 12px;
+}
+.Button-1 {
+  background-color: rgb(240, 240, 240);
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(95, 95, 95);
+  border-radius: 3px;
+  margin-left: -2px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+.Button-2 {
+  border-radius: 20px;
+  border: none;
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.Button-1:hover,
+.Button-2:hover {
+  opacity: 0.7;
+}
+.Middle-Section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 55px;
+  margin-right: 40px;
+  max-width: 600px;
+}
+.Right-Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  flex-shrink: 0;
+}
+.Box-1 {
+  flex: 1;
+  height: 37px;
+  padding-left: 10px;
+  font-size: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(95, 95, 95);
+  border-radius: 3px;
+  width: 0;
+}
+.Box-1::placeholder {
+  font-family: Arial;
+  font-size: 18px;
+}

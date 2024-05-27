@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  margin-bottom: 50px;
+  padding-top: 90px;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  background-color: rgb(245, 245, 245);
+}
+
+.Thumbnail-1,
+.Thumbnail-2,
+.Thumbnail-3,
+.Thumbnail-4,
+.Thumbnail-5,
+.Thumbnail-6,
+.Thumbnail-7,
+.Thumbnail-8,
+.Thumbnail-9,
+.Thumbnail-10,
+.Thumbnail-11,
+.Thumbnail-12 {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.Thumbnail-1:hover,
+.Thumbnail-2:hover,
+.Thumbnail-3:hover,
+.Thumbnail-4:hover,
+.Thumbnail-5:hover,
+.Thumbnail-6:hover,
+.Thumbnail-7:hover,
+.Thumbnail-8:hover,
+.Thumbnail-9:hover,
+.Thumbnail-10:hover,
+.Thumbnail-11:hover,
+.Thumbnail-12:hover {
+  border-radius: 1px;
+}
+
+.Title-1,
+.Title-2,
+.Title-3,
+.Title-4,
+.Title-5,
+.Title-6,
+.Title-7,
+.Title-8,
+.Title-9,
+.Title-10,
+.Title-11,
+.Title-12 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.Author-1,
+.Author-2,
+.Author-3,
+.Author-4,
+.Author-5,
+.Author-6,
+.Author-7,
+.Author-8,
+.Author-9,
+.Author-10,
+.Author-11,
+.Author-12 {
+  color: rgb(95, 95, 95);
+  font-size: 13px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.View-1,
+.View-2,
+.View-3,
+.View-4,
+.View-5,
+.View-6,
+.View-7,
+.View-8,
+.View-9,
+.View-10,
+.View-11,
+.View-12 {
+  color: rgb(95, 95, 95);
+  font-size: 13px;
+  margin-top: 4px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.Photo-1,
+.Photo-2,
+.Photo-3,
+.Photo-4,
+.Photo-5,
+.Photo-6,
+.Photo-7,
+.Photo-8,
+.Photo-9,
+.Photo-10,
+.Photo-11,
+.Photo-12 {
+  width: 40px;
+  border-radius: 50px;
+}
+.Super-Div-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 45px;
+}
+
+@media (max-width: 1000px) and (min-width: 500px) {
+  .Super-Div-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.Div-1,
+.Div-2,
+.Div-3,
+.Div-4,
+.Div-5,
+.Div-6,
+.Div-7,
+.Div-8,
+.Div-9,
+.Div-10,
+.Div-11,
+.Div-12 {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.Sub-Div-1,
+.Sub-Div-3,
+.Sub-Div-5,
+.Sub-Div-7,
+.Sub-Div-9,
+.Sub-Div-11,
+.Sub-Div-13,
+.Sub-Div-15,
+.Sub-Div-17,
+.Sub-Div-19,
+.Sub-Div-21,
+.Sub-Div-23 {
+  margin-bottom: 10px;
+}
+.Sub-Div-2,
+.Sub-Div-4,
+.Sub-Div-6,
+.Sub-Div-8,
+.Sub-Div-10,
+.Sub-Div-12,
+.Sub-Div-14,
+.Sub-Div-16,
+.Sub-Div-18,
+.Sub-Div-20,
+.Sub-Div-22,
+.Sub-Div-24 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
